@@ -2,5 +2,13 @@
   "name": "demofe",
   "version": "1.0.0",
   "author": "Gui Prá (super.driver.512@gmail.com)",
-  "license": "AGPL-3.0+"
+  "license": "AGPL-3.0+",
+  "scripts": {
+    "test": "faucet"
+  },
+  "dependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.9.2",
+    "tape-await": "^0.1.1"
+  }
 }
